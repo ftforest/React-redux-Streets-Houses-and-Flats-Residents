@@ -1,0 +1,8 @@
+export const api = 'https://dispex.org/api/vtest'
+export const BearerToken = 'Bearer 1234567890zxcv'
+export const urlGetStreets = '/Request/streets'
+export const urlGetStreetById = '/HousingStock?streetId='
+export const urlGetResidentsByAddressId = '/HousingStock/clients?addressId='
+export const urlDeleteResidentsByBindId = '/HousingStock/bind_client/'
+export const urlPostResidentsAdd = '/HousingStock/client'
+export const urlPutResidentsInFlat = '/HousingStock/bind_client'

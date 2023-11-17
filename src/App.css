@@ -1,38 +1,58 @@
+.wrap {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.App nav.leftMenu {
+  flex: 1;
+  background: #b4b2b2;
+}
+.App main {
+  flex: 3;
+  background: #dadab8;
 }
 
-.App-link {
-  color: #61dafb;
+.houseBtn{
+  padding: 3px;
+  margin: 5px;
+  background: #548fdc;
+  color: #fff;
+}
+.houseBtn:hover{
+  background: #82a9e3;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flatBtn{
+  padding: 3px;
+  margin: 5px;
+  background: #b6efb3;
+  color: #fff;
+}
+.flatBtn:hover{
+  background: #c1d5bf;
+  cursor: pointer;
+}
+
+.wrapMain {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .cartClient {
+  width: 20%;
+  font-size: 14px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+main .wrapCart {
+  border: 1px solid #82a9e3;
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
 }
